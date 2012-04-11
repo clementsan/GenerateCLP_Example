@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<executable>
+  <category>Filter</category>
+  <title>Maximum Image Filter</title>
+  <description> Choose two volume images for generating a new one which shows the maximum.</description>
+  <version>1.0</version>
+  <documentation-url></documentation-url>
+  <license></license>
+  <contributor>Cedric P Mathieu</contributor>
+
+  <parameters>
+    <label>Input</label>
+    <description>
+     Choose 2 input images
+    </description>
+    <image>
+      <name>filename1</name>
+      <channel>input</channel>
+      <index>0</index>
+      <description>Input Image</description>
+      <label>Image 1</label>
+      <default></default>
+    </image>
+    <image>
+      <name>filename2</name>
+      <channel>input</channel>
+      <index>1</index>
+      <description>Input Image</description>
+      <label>Image 2</label>
+      <default></default>
+    </image>
+  </parameters>
+  
+  <parameters>
+    <label>Output</label>
+    <description>
+     Choose the output image
+    </description>
+    <image>
+      <name>outputfilename</name>
+      <channel>output</channel>
+      <index>2</index>
+      <description>Output Image</description>
+      <label>Output Image</label>
+      <default>_max</default>
+    </image>
+  </parameters>
+  
+</executable>
